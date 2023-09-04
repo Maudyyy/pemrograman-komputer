@@ -29,3 +29,12 @@ li {
 .selected{
   color: #64CCC5;
 }
+
+li {
+  list-style: none;
+  float: left;
+}
+.header-logo {
+  font-size: 36px;
+  float: left;
+}
