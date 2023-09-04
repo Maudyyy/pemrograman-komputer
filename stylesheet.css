@@ -24,8 +24,8 @@ img {
 }
 
 li {
-  color: red;
-  
+  color: #053B50;
+}
 .selected{
-  color: red;
+  color: #64CCC5;
 }
