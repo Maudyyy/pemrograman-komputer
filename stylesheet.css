@@ -22,3 +22,10 @@ img {
   height: 50px;
   width: 70px;
 }
+
+li {
+  color: #176b87;
+  
+.selected{
+  color: #176B87;
+}
