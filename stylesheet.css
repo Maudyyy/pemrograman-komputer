@@ -2,7 +2,15 @@ h1 {
   color:#ff0000;
   font-size: 30px;
   background-color: #f3f372;
-  height: 80px;
+  height: 40px;
+  widht: 100px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #f4f499;
+  height: 20px;
   widht: 100px;
 }
 
@@ -13,3 +21,4 @@ p {
 img {
   height: 50px;
   width: 70px;
+}
