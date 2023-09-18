@@ -6,8 +6,71 @@ li {
   list-style: none;
 }
 
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;  
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
 .header {
-  background-color: #183d3d;
+  background-color: #183D3D;
   color: #f4f4f4;
   height: 90px;
 }
@@ -24,34 +87,103 @@ li {
 }
 
 .main {
-  padding: 100px 80px;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: #f4f4f4;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  background-color: #5C8374;
+  padding: 100px 100px;
+}
 
+.main h1{
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
 }
 
 .copy-container h1 {
   font-size: 140px;
-  color: #183d3d;
+  color: #f4f4f4;
 }
 
 .copy-container h2 {
   font-size: 60px;
-  color: #040404;
+  color: #5C8374;
 }
 
 .copy-container span {
   color: #ff4a4a;
 }
 
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.contents h3{
+  font-size: 52px;
+}
+
+.section-title {
+  border-bottom: 2px solid #5C8374;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+  color: #f4f4f4;
+}
+
+.contents-item p {
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  font-size: 32px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-form h3{
+  font-size: 52px;
+}
+.contact-form span {
+  color: #ff4a4a;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 1px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #5C8374;
+}
+
+.contact-submit {
+  font-size: 20px;
+  background-color: #5C8374;
+  color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #183D3D;
+}
+
 .footer {
-  background-color: #183d3d;
+  background-color: #183D3D;
   color: #f4f4f4;
   height: 120px;
-  padding: 20px;
+  padding: 40px;
 }
 
 .footer-logo {
-  font-size: 32px;
   float: left;
+  font-size: 32px;
 }
 
 .footer-list {
@@ -59,5 +191,5 @@ li {
 }
 
 .footer-list li {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
